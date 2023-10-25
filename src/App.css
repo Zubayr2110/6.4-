@@ -1,0 +1,6 @@
+.containermain {
+  margin: 0 auto;
+  width: 1440px;
+  border: 1px solid;
+  background: var(--main-bg-page, #FBF8EC);
+}

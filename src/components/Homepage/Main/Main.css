@@ -1,0 +1,29 @@
+main {
+    margin: 0 auto;
+    width: 1440px;
+    font-family: sans-serif;
+    background: var(--main-bg-page, #FBF8EC);
+}
+.container {
+    margin: 0 auto;
+    width: 1208px;
+}
+.slider {
+    margin-top: 5px;
+    margin-left: -116px;
+}
+.chegirma {
+    margin-top: 80px;
+    width: 100%;
+    border: 1px solid;
+}
+h2 {
+    border: 1px solid ;
+}
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 349px;
+    border: 1px solid;
+}
