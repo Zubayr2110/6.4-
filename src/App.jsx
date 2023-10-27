@@ -5,6 +5,10 @@ import Header from './components/Homepage/Header/Header.jsx'
 import Main from './components/Homepage/Main/Main';
 import Products from './Storage/Products';
 import AddProduct from './Storage/AddProduct';
+import { Route, Routes } from 'react-router-dom';
+import Footer from './components/Homepage/Footer/Footer';
+
+import korzinka from './components/Page/Korzinka.jsx'
 
 
 
@@ -40,18 +44,12 @@ function App() {
   }, [list]);
 
   return (
-    <div className='containermain'>
+    <Routes>
       <Header/>
-      <Main/>
-      <AddProduct
-        title={title}
-        setTitle={setTitle}
-        price={price}
-        setPrice={setPrice}
-        handleSubmit={handleSubmit}
-      />
-      <Products list={list} removeItem={removeItem} />
-     </div>
+      <Route path='/' element={<Main/>}/>
+      <Route path='/korzinka' element={<korzinka/>}/>
+      <Footer/>
+    </Routes>
   )
 }
 

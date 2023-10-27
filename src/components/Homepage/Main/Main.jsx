@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Main.css"
 import Slider from '/src/assets/Sliders.svg'
-import Products from '../../../Storage/Products.jsx'
+// import Products from '../../../Storage/Products.jsx'
 
 export default function Main() {
 
